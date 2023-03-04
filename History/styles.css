@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: #f9e6ea;
+    color: #063671;
+    /* background: url("https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWVzdGhldGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* color: white; */
+}
+main{
+    margin: 20px;
+}
+/* ---------------Nav-------------- */
+nav{
+    background: url("https://www.shutterstock.com/image-vector/random-butterfly-silhouette-pattern-seamless-260nw-1932944300.jpg");
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    margin: 0px 10px;
+    color: rgb(6, 54, 112);
+}
+nav img{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 100%; */
+}
+@media screen and (max-width:768px){
+    nav a{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0px 10px;
+    }
+    nav img{
+        width: 40px;
+        height: 40px;
+    }
+}
+/* ------------SearchBar---------- */
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.searchBar #clear{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #dccce6;
+    color: #063671;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+}
+@media screen and (max-width:560px){
+    .searchBar{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .searchBar #clear{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+/* -----------HistoryDiv----------- */
+.list_div{
+    display: flex;
+    justify-content: space-between;
+    padding:  0px 10px;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    background-color: #dccce6;
+    border-radius: 10px;
+    margin:  20px 0px;
+    cursor: pointer;
+}
+@media screen and (max-width:560px){
+    .list_div{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

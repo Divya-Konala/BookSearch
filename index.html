@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm | Home</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <a class="logo" href="./index.html"><img src="./favicon.png" alt="logo">BookWorm</a> 
+        <a href="./History/history.html">History</a>
+    </nav>
+    <main>
+        <div class="search_div">
+            <div class="search_box">
+                <span>search for books by their name</span>
+            <div class="search_bar"><i class="fa-solid fa-magnifying-glass"></i><input type="text" id="search" placeholder=" Search..."></div>
+            </div>
+             <br>
+            <button onclick="searchFun()">Search Now!</button>
+            <p id="searchFor"></p>
+        </div>
+        <div class="bookShelf"></div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
