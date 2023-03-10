@@ -25,7 +25,6 @@ function displayBooks(items){
     history.push(currSearch);
     searchFor.textContent=`Book Results For '${search.value}'`;
     searchFor.style.display="block";
-    
     items.map((item)=>{
         let book=item.volumeInfo;
         let bookBox=document.createElement("div");
