@@ -59,6 +59,7 @@ nav img{
 .search_box{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .search_box span{
     margin-right: 30px;
@@ -70,6 +71,7 @@ nav img{
     display: flex;
     align-items: center;
     width: 70%;
+    padding: 5px;
 }
 .search_div input{
     box-sizing: border-box;
@@ -80,6 +82,8 @@ nav img{
     width: 100%;
     color: #063671;
     font-size: 20px;
+    outline: none;
+    padding-left: 10px;
 }
 .search_div button{
     font-size: 20px;
